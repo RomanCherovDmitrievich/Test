@@ -1,0 +1,82 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "StructExample: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/StructExample",
+            "cwd": "${workspaceFolder}/Build/Debug/Bin/",
+            "args": [],
+            "preLaunchTask": "debug_build_structexample",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "SentenceSeparator: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/SentenceSeparator",
+            "cwd": "${workspaceFolder}/C++/SentenceSeparator/",
+            "args": [],
+            "preLaunchTask": "debug_build_sentenceseparator",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "ChronoExample: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/ChronoExample",
+            "cwd": "${workspaceFolder}/Build/Debug/Bin/",
+            "args": [],
+            "preLaunchTask": "debug_build_chronoexample",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Sorts: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/Sorts",
+            "cwd": "${workspaceFolder}/Build/Debug/Bin/",
+            "args": [],
+            "preLaunchTask": "debug_build_sorts",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "AVLTree: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/AVLTree",
+            "cwd": "${workspaceFolder}/Build/Debug/Bin/",
+            "args": [],
+            "preLaunchTask": "debug_build_avltree",            
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "ExampleUser: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/ExampleUser",
+            "cwd": "${workspaceFolder}/Build/Debug/Bin/",
+            "args": [],
+            "preLaunchTask": "debug_build_exampleuser",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Test: Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/Debug/Bin/Test",
+            "cwd": "${workspaceFolder}/Build/Debug/Bin/",
+            "args": [],
+            "preLaunchTask": "debug_build_test",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}

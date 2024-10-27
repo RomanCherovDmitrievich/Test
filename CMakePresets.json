@@ -1,0 +1,110 @@
+{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "Debug: Windows",
+            "displayName": "Windows Debug preset",
+            "description": "Создание и построение проекта в Debug директории для Windows ОС.",
+            "generator": "Ninja",
+            "binaryDir": "${workspaceFolder}/Build/CMake/Debug",
+            "architecture":
+            {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables":
+            {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/Build/CMake/Debug"
+            },
+            "vendor":
+            {
+                "microsoft.com/VisualStudioSettings/CMake/1.0":
+                {
+                    "hostOS": [ "Windows" ]
+                }
+            }
+        }
+        ,{
+            "name": "Debug: Unix",
+            "displayName": "Unix Debug preset",
+            "description": "Создание и построение проекта в Debug директории для Unix ОС.",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${workspaceFolder}/Build/CMake/Debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/Build/Install/Debug"
+            }
+        },
+        {
+            "name": "Release: Windows",
+            "displayName": "Windows Release preset",
+            "description": "Создание и построение проекта в Release директории для Windows ОС.",
+            "generator": "Ninja",
+            "binaryDir": "${workspaceFolder}/Build/CMake/Release",
+            "architecture":
+            {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables":
+            {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/Build/CMake/Release"
+            },
+            "vendor":
+            {
+                "microsoft.com/VisualStudioSettings/CMake/1.0":
+                {
+                    "hostOS": [ "Windows" ]
+                }
+            }
+        }
+        ,{
+            "name": "Release: Unix",
+            "displayName": "Release preset",
+            "description": "Создание и построение проекта в Release директории.",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${workspaceFolder}/Build/CMake/Release",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/Build/Install/Release"
+            }
+        },
+        {
+            "name": "RelWithDebInfo: Windows",
+            "displayName": "Windows RelWithDebInfo preset",
+            "description": "Создание и построение проекта в RelWithDebInfo директории для Windows ОС.",
+            "generator": "Ninja",
+            "binaryDir": "${workspaceFolder}/Build/CMake/RelWithDebInfo",
+            "architecture":
+            {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables":
+            {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+                "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/Build/CMake/RelWithDebInfo"
+            },
+            "vendor":
+            {
+                "microsoft.com/VisualStudioSettings/CMake/1.0":
+                {
+                    "hostOS": [ "Windows" ]
+                }
+            }
+        }
+        ,{
+            "name": "RelWithDebInfo",
+            "displayName": "RelWithDebInfo preset",
+            "description": "Создание и построение проекта в RelWithDebInfo директории.",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${workspaceFolder}/Build/CMake/RelWithDebInfo",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+                "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/Build/Install/RelWithDebInfo"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autofetchPeriod": 3600,
+    
+    "cmake.parallelJobs": 4,
+    "cmake.useCMakePresets": "always",
+    "cmake.options.statusBarVisibility": "compact",
+    "cmake.generator": "",
+
+    "files.associations": {
+        "filesystem": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "*.tcc": "cpp",
+        "xstring": "cpp",
+        "algorithm": "cpp",
+        "string": "cpp"
+    },
+
+    "cSpell.words": [
+        "регистрозависимые",
+        "регистронезависимые",
+        "comscsi",
+        "lptno",
+        "lptscsi",
+        "Makefiles"
+    ]
+}

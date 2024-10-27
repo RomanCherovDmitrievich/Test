@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "debug_build_structexample",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target StructExample"
+        },
+        {
+            "label": "debug_build_test",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target Test"
+        },
+        {
+            "label": "debug_build_avltree",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target AVLTree"
+        },
+        {
+            "label": "debug_build_sorts",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target Sorts"
+        },
+        {
+            "label": "debug_build_chronoexample",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target ChronoExample"
+        },
+        {
+            "label": "debug_build_exampleuser",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target ExampleUser"
+        },
+        {
+            "label": "debug_build_sentenceseparator",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/Build/CMake/Debug --target SentenceSeparator"
+        }
+    ]
+}

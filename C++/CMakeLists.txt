@@ -1,0 +1,6 @@
+add_subdirectory(StructExample)
+add_subdirectory(ChronoExample)
+add_subdirectory(SentenceSeparator)
+add_subdirectory(Sorts)
+add_subdirectory(AVLTree)
+add_subdirectory(Test)
